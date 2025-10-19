@@ -60,7 +60,7 @@ mesh03.castShadow = true;
 
 var loader = new FontLoader();
 var font = loader.parse(fontJSON3);
-var geometry04 = new TextGeometry(' LOS QUE YA NO ESTAN',{
+var geometry04 = new TextGeometry(' LOS QUE YA NO ESTÁN',{
     font: font,
     size: 1.7,
     height: 2,
@@ -208,5 +208,6 @@ Cartel.position.set(x,y,z);
 
 return Cartel;
 }
+
 
 
