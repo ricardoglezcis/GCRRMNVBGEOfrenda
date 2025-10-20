@@ -9,7 +9,7 @@ var meshASE = new THREE.Mesh(geometryASE,materialASE);
 //scene.add(meshASE);
 meshASE.position.set(0,12,210);
 meshASE.castShadow = true;
-meshASE.rotation.set(0,0,3.14159);
+meshASE.rotation.set(0,3,14,3.14159);
 
 var geometry02 = new THREE.TorusKnotGeometry(3,1.5,100,16,1,8); 
 var material02 = new THREE.MeshLambertMaterial({
@@ -291,5 +291,6 @@ TAPETEASERRIN.add(meshASE,flor1,flor2,flor3,flor4,flor5,flor6,flor7,flor8,flor9,
 TAPETEASERRIN.position.set(x,y,z);
 
 return TAPETEASERRIN;
+
 
 }
